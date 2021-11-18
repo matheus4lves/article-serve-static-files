@@ -1,0 +1,42 @@
+.container {
+  display: grid;
+  padding: 15px;
+  justify-items: center;
+  align-content: center;
+  height: 100%;
+}
+
+.text-contents {
+  position: relative;
+  align-self: center;
+  justify-self: center;
+  color: #005f73;
+  background: url("../images/freedom.png") no-repeat center;
+  background-size: 80%;
+  width: 400px;
+  height: 200;
+}
+
+.heading {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.paragraph {
+  position: absolute;
+  top: 68%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+p,
+h1 {
+  margin: 0;
+  padding: 0;
+}
+
+img {
+  max-width: 50%;
+}

@@ -1,0 +1,6 @@
+{
+  "printWidth": 9999,
+  "tabWidth": 2,
+  "quoteProps": "consistent",
+  "arrowParens": "avoid"
+}
