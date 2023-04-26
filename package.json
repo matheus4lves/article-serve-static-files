@@ -1,20 +1,12 @@
 {
-  "name": "serve-static-files",
+  "name": "blog_serve-static-files",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "webpack.config.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "dev": "webpack serve"
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
   "author": "",
-  "license": "ISC",
-  "devDependencies": {
-    "css-loader": "^6.5.1",
-    "style-loader": "^3.3.1",
-    "webpack": "^5.62.2",
-    "webpack-cli": "^4.9.1",
-    "webpack-dev-server": "^4.4.0"
-  }
+  "license": "ISC"
 }
