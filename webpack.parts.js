@@ -14,3 +14,14 @@ exports.loadHTML = () => ({
 exports.generateHTML = ({ template } = {}) => ({
   plugins: [new HtmlWebpackPlugin({ template })],
 });
+
+exports.loadCSS = () => ({
+  module: {
+    rules: [
+      {
+        test: /\.css$/i,
+        use: ["style-loader", "css-loader"],
+      },
+    ],
+  },
+});
