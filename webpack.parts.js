@@ -25,3 +25,14 @@ exports.loadCSS = () => ({
     ],
   },
 });
+
+exports.loadImages = () => ({
+  module: {
+    rules: [
+      {
+        test: /\.(png|svg|jpg|jpeg|gif)$/i,
+        type: "asset/resource",
+      },
+    ],
+  },
+});

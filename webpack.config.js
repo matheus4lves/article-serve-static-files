@@ -13,6 +13,7 @@ const commonConfig = merge([
   parts.loadHTML(),
   parts.generateHTML({ template: "./app/index.html" }),
   parts.loadCSS(),
+  parts.loadImages(),
 ]);
 
 const configs = {
