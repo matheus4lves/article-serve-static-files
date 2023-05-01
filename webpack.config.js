@@ -1,5 +1,6 @@
 const { merge } = require("webpack-merge");
 const path = require("path");
+const parts = require("./webpack.parts");
 
 const commonConfig = merge([
   {
@@ -9,6 +10,7 @@ const commonConfig = merge([
       filename: "bundle.js",
     },
   },
+  parts.loadHTML(),
 ]);
 
 const configs = {
