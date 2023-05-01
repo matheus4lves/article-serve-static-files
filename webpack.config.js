@@ -11,6 +11,7 @@ const commonConfig = merge([
     },
   },
   parts.loadHTML(),
+  parts.generateHTML({ template: "./app/index.html" }),
 ]);
 
 const configs = {

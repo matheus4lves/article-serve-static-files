@@ -1,3 +1,5 @@
+const HtmlWebpackPlugin = require("html-webpack-plugin");
+
 exports.loadHTML = () => ({
   module: {
     rules: [
@@ -7,4 +9,8 @@ exports.loadHTML = () => ({
       },
     ],
   },
+});
+
+exports.generateHTML = ({ template } = {}) => ({
+  plugins: [new HtmlWebpackPlugin({ template })],
 });
